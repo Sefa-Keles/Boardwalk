@@ -1,11 +1,16 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
 body {
     background-color: lightskyblue;
 }
 
 h1 {
     color:bisque;
+    font-family: "Macondo", cursive;
 }
 
 p {
     color: chocolate;
+    font-family: "Inter", sans-serif;
 }
