@@ -37,6 +37,17 @@ h3 {
     color: var(--highlight-color);
 }
 
+/* Navigation */
+
+#navigation {
+    background-color: var(--secondary-color);
+}
+
+.logo {
+    width: 30px;
+}
+
+
 /* grid visualisation CSS for testing */
 
 /* .container,
