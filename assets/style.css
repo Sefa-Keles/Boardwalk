@@ -103,6 +103,13 @@ h2 {
     }
 }
 
+/* Game Library */
+
+#new-games .card, 
+#fav-games .card {
+    border: none;
+}
+
 
 
 /* grid visualisation CSS for testing */
