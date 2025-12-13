@@ -31,7 +31,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
+}
+
+h1, 
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -58,6 +66,44 @@ h3 {
 #header .lead {
     font-family: var(--secondary-font);
 }
+
+/* Services */
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+@media screen and (min-width:768px) {
+    #services .card-body {
+        min-height: 169px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #services .card-body {
+        min-height: 194px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    #services .card-body {
+        min-height: 195px;
+    }
+}
+
+
 
 /* grid visualisation CSS for testing */
 
