@@ -5,11 +5,11 @@
 
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive; 
-    --primary-color:#416a8e;
-    --secondary-color:#aa9581;
-    --highlight-color:#416a8e;
-    --highlight-color-light:#7a9fc2;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 /* Global Variables */
@@ -54,7 +54,7 @@ h2 {
 /* Navigation */
 
 #navigation {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .logo {
@@ -109,6 +109,48 @@ h2 {
 #fav-games .card {
     border: none;
 }
+
+
+/* Footer */
+
+/* Contact / Contact Info */
+
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact h3.sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+#contact .social-links i {
+    text-decoration: none;
+    color: var(--highlight-color-light);
+    transition: color 0.3s ease-in-out ;
+    font-size: 1.5rem;
+}
+
+#contact .social-links i:hover {
+    color: var(--highlight-color-light);
+}
+
+/* Contact / Opening Times */
+
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 
 
 
