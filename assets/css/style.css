@@ -48,9 +48,7 @@ h2 {
 }
 
 .section {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    scroll-margin-top: 58.11px; /* CSS NEW Solution: prevent navbar overlap withput padding hack codes*/
+    padding-top: 4rem; 
 }
 
 .custom-button-filled {
