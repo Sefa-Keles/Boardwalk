@@ -256,6 +256,46 @@
                 </div>
             </div>
         </section>
+        <!-- Reservation Form -->
+        <section id="reservation-form" class="container section">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-6 text-center">Reserve a game</h1>
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.</p>
+                </div>
+                <form action="success.html" method="GET">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-4">
+                            <label for="fullname" class="form-label">Full name</label>
+                            <input type="text" name="fullname" id="fullname" class="form-control" required>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-4">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input type="number" name="phone" id="phone" class="form-control" required>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <label for="select-game" class="form-label">Select Game</label>
+                            <select name="select-game" id="select-game" class="form-select" required>
+                                <option selected>Select game</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-4">
+                            <label for="requested-date" class="form-label">Requested date</label>
+                            <input type="date" name="requested-date" id="requested-date" class="form-control" required>
+                        </div>
+                        <div class="col-12 text-end mb-4">
+                            <button type="submit" class="btn custom-button-outline">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
