@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 58.11px ;
 }
 
 footer {
@@ -79,6 +80,7 @@ h2 {
 #navigation {
     background-color: var(--primary-color);
 }
+
 
 .logo {
     width: 30px;
